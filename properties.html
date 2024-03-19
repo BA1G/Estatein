@@ -1,0 +1,839 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Properties</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="overflow-x">
+
+
+
+        <section id="header">
+
+            <div class="wow animate__animated animate__fadeIn banner flex-container">
+
+                <p class="p-banner">✨Discover Your Dream Property with us
+                    <span><a class="a-banner" href="services.html">Learn More</a></span>
+                </p>
+
+            </div>
+
+
+
+            <nav class="navbar navbar-expand-lg bg-grey">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-navBar" src="assets/images/logo-full.png" alt="">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <img src="assets/images/navbar-toggler-btn.png" alt="">
+                    </button>
+
+
+                    <div class="items-div collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="a-navBar" href="index.html"> <button class="btn-home-navbar">Home</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-navBar" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-navBar" href="properties.html">Properties</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-navBar" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="a-navBar" href="contact.html"> <button class="btn-contact-navBar">Contact
+                                        Us</button> </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </section>
+
+
+        <div class="wow animate__animated animate__fadeIn poster-properties">
+
+            <h3 class="h3-poster">Find Your Dream Property</h3>
+            <p class="p-poster">Welcome to Estatein, where your dream property awaits in every corner of our beautiful
+                world. Explore our
+                curated selection of properties, each offering a unique story and a chance to redefine your life. With
+                categories to suit every dreamer, your journey </p>
+
+        </div>
+
+
+
+        <section id="properties">
+
+
+            <form class="flex-container flex-column search-container" action="mailto:baigahmad589@gmail.com"
+                enctype="text/plain" method="post">
+
+                <div class="flex-item">
+
+                    <div class="search-bar flex-container">
+
+                        <div class="flex-item search-property">
+                            <input required type="text" class="search-div" name="Search-keyword" value=""
+                                id="Search-keyword" placeholder="Search For A Property">
+                        </div>
+
+                        <div class="flex-item">
+                            <button type="submit" class="btn-search-p">Find</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex-item">
+
+                    <div class="search-options flex-container">
+
+                        <div class="search-select flex-container">
+
+                            <div class="flex-item">
+                                <img class="icon-search" src="assets/images/icon-search-1.png" alt="">
+                            </div>
+
+                            <div class="flex-item">
+                                <img src="assets/images/search-line.png" alt="">
+                            </div>
+
+                            <select class="search-select-div" name="Preferred-Location" id="Preferred-Location">
+                                <option value="Select Location">Select Location</option>
+                                <option value="NewYork">NewYork</option>
+                                <option value="London">London</option>
+                                <option value="Paris">Paris</option>
+                                <option value="Luxumbourg">Luxumbourg</option>
+                            </select>
+
+
+                        </div>
+
+                        <div class="search-select flex-container">
+
+                            <div class="flex-item">
+                                <img class="icon-search" src="assets/images/icon-search-2.png" alt="">
+                            </div>
+
+                            <div class="flex-item">
+                                <img src="assets/images/search-line.png" alt="">
+                            </div>
+
+
+                            <select class="search-select-div" name="Property-type" id="Property-type">
+                                <option value="Select Property Type">Select Property Type</option>
+                                <option value="Villa">Villa</option>
+                                <option value="Penthouse">Penthouse</option>
+                                <option value="Appartment">Appartment</option>
+                                <option value="Commercial">Commercial</option>
+                            </select>
+
+                        </div>
+
+                        <div class="search-select flex-container">
+
+                            <div class="flex-item">
+                                <img class="icon-search" src="assets/images/icon-search-3.png" alt="">
+                            </div>
+
+                            <div class="flex-item">
+                                <img src="assets/images/search-line.png" alt="">
+                            </div>
+
+
+                            <select required class="search-select-div" name="Budget" id="Budget">
+                                <option value="Select Budget">Select Budget</option>
+                                <option value="$100,000">$100,000</option>
+                                <option value="$150,000">$150,000</option>
+                                <option value="$200,000">$200,000</option>
+                                <option value="$250,000">$250,000</option>
+                                <option value="$300,000">$300,000</option>
+                                <option value="$350,000">$350,000</option>
+                                <option value="$400,000">$400,000</option>
+                                <option value="$450,000">$450,000</option>
+                                <option value="$500,000">$500,000</option>
+                                <option value="$600,000">$600,000</option>
+                                <option value="$700,000">$700,000</option>
+                                <option value="$800,000">$800,000</option>
+                                <option value="$900,000">$900,000</option>
+                                <option value="$1,000,000">$1,000,000</option>
+
+
+                            </select>
+
+                        </div>
+
+                        <div class="search-select flex-container">
+
+                            <div class="flex-item">
+                                <img class="icon-search" src="assets/images/icon-search-4.png" alt="">
+                            </div>
+
+                            <div class="flex-item">
+                                <img src="assets/images/search-line.png" alt="">
+                            </div>
+
+
+                            <select required class="search-select-div" name="Property Size" id="Property Size">
+                                <option value="Property Size">Property Size</option>
+                                <option value="100 Square meter">100 Square meter</option>
+                                <option value="200 Square meter">200 Square meter</option>
+                                <option value="300 Square meter">300 Square meter</option>
+                                <option value="400 Square meter">400 Square meter</option>
+                                <option value="500 Square meter">500 Square meter</option>
+                                <option value="1000 Square meter">1000 Square meter</option>
+                                <option value="1100 Square meter">1100 Square meter</option>
+                                <option value="1200 Square meter">1200 Square meter</option>
+                                <option value="1300 Square meter">1300 Square meter</option>
+                                <option value="1400 Square meter">1400 Square meter</option>
+                                <option value="1500 Square meter">1500 Square meter</option>
+                                <option value="2000 Square meter">2000 Square meter</option>
+                                <option value="2500 Square meter">2500 Square meter</option>
+                                <option value="3000 Square meter">3000 Square meter</option>
+
+
+                            </select>
+
+                        </div>
+
+                        <div class="search-select flex-container">
+
+                            <div class="flex-item">
+                                <img class="icon-search" src="assets/images/icon-search-5.png" alt="">
+                            </div>
+
+                            <div class="flex-item">
+                                <img src="assets/images/search-line.png" alt="">
+                            </div>
+
+                            <select required class="search-select-div" name="Build Year" id="Build Year">
+                                <option value="Build Year">Build Year</option>
+                                <option value="2023">2023 </option>
+                                <option value="2022">2022 </option>
+                                <option value="2021 ">2021 </option>
+                                <option value="2020">2020 </option>
+                                <option value="2019 ">2019 </option>
+                                <option value="2018 ">2018 </option>
+                                <option value="2017 ">2017 </option>
+                                <option value="2016">2016</option>
+                                <option value="2015 ">2015 </option>
+                                <option value="2014 ">2014 </option>
+                                <option value="2013">2013 </option>
+                                <option value="2012 ">2012 </option>
+                                <option value="2011">2011 </option>
+                                <option value="2012 ">2012 </option>
+
+
+                            </select>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+
+
+            <section id="properties">
+
+                <div class="properties-test-faq-content margin-top-50 padding-10-right">
+
+                    <div class="flex-container justify-spbtwn">
+
+                        <div class="flex-item">
+
+                            <img class=" property-abstract-stars" src="assets/images/property-abstract-stars.png"
+                                alt="">
+                            <h2 class=" h2-property">Discover a World of Possibilities</h2>
+                            <p class=" p-property">Our portfolio of properties is as diverse as your dreams. Explore the
+                                following categories to find the perfect property that resonates with your vision of
+                                home
+                            </p>
+                        </div>
+
+                        <div class="flex-item">
+
+                            <a href="properties.html"><button class="btn-view-property">View All Properties</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="flex-container properties-container">
+
+                        <div class=" properties-div p-d-1 ">
+
+                            <div class="property-img">
+                                <img class="img-property" src="assets/images/property-img-1.png" alt="">
+                            </div>
+
+                            <h3 class="property-name">Seaside Serenity Villa</h3>
+                            <p class="property-description">A stunning 4-bedroom, 3-bathroom villa in a peaceful
+                                suburban
+                                neighborhood... <a class="a-read-more" href="">Read More</a></p>
+
+                            <div class="flex-container ">
+                                <div class="bedroom-div flex-container "><img src="assets/images/icon-bedroom.png"
+                                        alt="">4-Bed
+                                </div>
+                                <div class="bathroom-div flex-container "><img src="assets/images/icon-bathroom.png"
+                                        alt="">5-Bath
+                                </div>
+                                <div class="villa-div flex-container "><img src="assets/images/icon-villa.png"
+                                        alt="">Villa
+                                </div>
+                            </div>
+
+                            <div class="flex-container">
+
+                                <div class="price-div">
+                                    <p class="price">Price</p>
+                                    <h4 class="dollars">$550,000</h4>
+                                </div>
+
+                                <div class="btn-div">
+                                    <a href="properties.html"><button class="btn-property-details">View Property
+                                            Details</button></a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="properties-div p-d-2">
+
+                            <div class="property-img">
+                                <img class="img-property" src="assets/images/property-img-2.png" alt="">
+                            </div>
+
+                            <h3 class="property-name">Metropolitan Haven</h3>
+                            <p class="property-description">A chic & fully-furnished 2-bedroom apartment with panoramic
+                                city
+                                views... <a class="a-read-more" href="">Read More</a></p>
+
+                            <div class="flex-container bed-bath">
+                                <div class="bedroom-div flex-container "><img src="assets/images/icon-bedroom.png"
+                                        alt="">2-Bed
+                                </div>
+                                <div class="bathroom-div flex-container "><img src="assets/images/icon-bathroom.png"
+                                        alt="">3-Bath
+                                </div>
+                                <div class="villa-div flex-container "><img src="assets/images/icon-villa.png"
+                                        alt="">Villa
+                                </div>
+                            </div>
+
+                            <div class="flex-container">
+
+                                <div class="price-div">
+                                    <p class="price">Price</p>
+                                    <h4 class="dollars">$550,000</h4>
+                                </div>
+
+                                <div class="btn-div">
+                                    <a href="properties.html"><button class="btn-property-details">View Property
+                                            Details</button></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class=" properties-div p-d-3">
+
+                            <div class="property-img">
+                                <img class="img-property" src="assets/images/property-img-3.png" alt="">
+                            </div>
+                            <h3 class="property-name">Rustic Retreat Cottage</h3>
+                            <p class="property-description">An elegant 3-bedroom, 2.5-bathroom townhouse in a gated
+                                community...
+                                <a class="a-read-more" href="">Read More</a>
+                            </p>
+
+                            <div class="flex-container bed-bath">
+
+                                <div class="bedroom-div flex-container "><img src="assets/images/icon-bedroom.png"
+                                        alt="">3-Bed
+                                </div>
+                                <div class="bathroom-div flex-container "><img src="assets/images/icon-bathroom.png"
+                                        alt="">4-Bath
+                                </div>
+                                <div class="villa-div flex-container "><img src="assets/images/icon-villa.png"
+                                        alt="">Villa
+                                </div>
+                            </div>
+
+
+                            <div class="flex-container">
+
+                                <div class="price-div">
+                                    <p class="price">Price</p>
+                                    <h4 class="dollars">$550,000</h4>
+                                </div>
+
+                                <div class="btn-div">
+                                    <a href="properties.html"><button class="btn-property-details">View Property
+                                            Details</button></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Line -->
+
+                <div class="flex-container btn-stats-div">
+
+                    <div class="stats">
+                        <p>01 of 60</p>
+                    </div>
+
+                    <div class="btns-left-right">
+                        <img src="assets/images/btn-left.png" alt="">
+                        <img src="assets/images/btn-right.png" alt="">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="form">
+
+
+                <img class="margin-top-90" src="assets/images/property-abstract-stars.png" alt="">
+                <h2 class="wow animate__animated animate__fadeIn h2-about">Let's Make it Happen</h2>
+                <p class="p-clients-feedback margin-bottom-60">Ready to take the first step toward your dream property?
+                    Fill out the form below, and our real estate wizards
+                    will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey
+                    together.</p>
+
+
+                <form class="property-form flex-container flex-column" action="mailto:baigahmad589@gmail.com"
+                    enctype="text/plain" method="post">
+
+                    <div class="flex-item">
+
+                        <div class="flex-container form-divs">
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">First Name</h4>
+                                <input required type="text" class="form-div" name="First-Name" value="" id="firstName"
+                                    placeholder="Enter First Name">
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Last Name</h4>
+                                <input required type="text" class="form-div" name="Last-Name" value="" id="lastName"
+                                    placeholder="Enter Last Name">
+
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Email</h4>
+                                <input required type="email" class="form-div" name="Email-Address" value="" id="email"
+                                    placeholder="Enter Your Email">
+
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Phone</h4>
+                                <input required type="tel" class="form-div" name="Phone-Number" id="phone" value=""
+                                    placeholder="Enter Phone Number">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="flex-item">
+
+                        <div class="flex-container form-divs">
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Preferred Location</h4>
+
+                                <select class="form-div" name="Preferred-Location" id="Preferred-Location">
+                                    <option value="Select Location">Select Location</option>
+                                    <option value="NewYork">NewYork</option>
+                                    <option value="London">London</option>
+                                    <option value="Paris">Paris</option>
+                                    <option value="Luxumbourg">Luxumbourg</option>
+                                </select>
+
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Property Type</h4>
+
+                                <select class="form-div" name="Property-type" id="Property-type">
+                                    <option value="Select Property Type">Select Property Type</option>
+                                    <option value="Villa">Villa</option>
+                                    <option value="Penthouse">Penthouse</option>
+                                    <option value="Appartment">Appartment</option>
+                                    <option value="Commercial">Commercial</option>
+                                </select>
+
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">No. of Bedrooms</h4>
+
+                                <select class="form-div" name="No-of-Bedrooms" id="No-of-Bedrooms">
+                                    <option value="Select no. of Bedrooms">Select no. of Bedrooms</option>
+
+                                    <option value="One">One</option>
+                                    <option value="Two">Two</option>
+                                    <option value="Three">Three</option>
+                                    <option value="Four">Four</option>
+                                    <option value="Five">Five</option>
+
+                                </select>
+
+
+
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">No. of Bathrooms</h4>
+
+                                <select class="form-div" name="No-of-Bathrooms" id="No-of-Bathrooms">
+                                    <option value="Select no. of Bathrooms">Select no. of Bathrooms</option>
+
+                                    <option value="One">One</option>
+                                    <option value="Two">Two</option>
+                                    <option value="Three">Three</option>
+                                    <option value="Four">Four</option>
+                                    <option value="Five">Five</option>
+                                </select>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+
+                        <div class="flex-container form-divs">
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Budget</h4>
+
+                                <select required class="form-budget" name="Budget" id="Budget">
+                                    <option value="Select Budget">Select Budget</option>
+                                    <option value="$100,000">$100,000</option>
+                                    <option value="$150,000">$150,000</option>
+                                    <option value="$200,000">$200,000</option>
+                                    <option value="$250,000">$250,000</option>
+                                    <option value="$300,000">$300,000</option>
+                                    <option value="$350,000">$350,000</option>
+                                    <option value="$400,000">$400,000</option>
+                                    <option value="$450,000">$450,000</option>
+                                    <option value="$500,000">$500,000</option>
+                                    <option value="$600,000">$600,000</option>
+                                    <option value="$700,000">$700,000</option>
+                                    <option value="$800,000">$800,000</option>
+                                    <option value="$900,000">$900,000</option>
+                                    <option value="$1,000,000">$1,000,000</option>
+
+
+                                </select>
+
+                            </div>
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Preferred Contact Method</h4>
+
+                                <div class="form-div flex-container">
+                                    <img src="assets/images/icon-form-phone.png" alt="">
+                                    <input type="tel" class="form-phone" name="Phone-number" value="" id="Phone-number"
+                                        placeholder="Enter Your Number">
+                                    <img src="assets/images/shape-form-phone.png" alt="">
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Email</h4>
+
+                                <div class="form-div flex-container">
+                                    <img src="assets/images/icon-email-form.png" alt="">
+                                    <input type="email" class="form-phone" name="Email-address" value=""
+                                        id="email-address" placeholder="Enter Your Email">
+                                    <img src="assets/images/shape-form-email.png" alt="">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="flex-item">
+
+                        <div class="flex-container form-divs">
+
+                            <div class="flex-item form-data">
+                                <h4 class="h4-form">Message</h4>
+
+                                <textarea class="form-msg" name="Message" id="message" cols="30" rows="10"
+                                    placeholder="Enter your Message here.."></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="flex-item">
+
+                        <div class="flex-container p-btn">
+
+                            <div class="flex-item item-1">
+
+                                <div class="flex-container checkbox-p-form">
+
+                                    <div class="flex-item">
+
+                                        <div class="chekbox">
+
+                                            <input required type="checkbox" name="checkbox" value="I-agree."
+                                                id="checkbox" class="chekbox">
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="flex-item">
+                                        <p class="p-form">I agree with Terms of Use and Privacy Policy</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="flex-item item-2">
+
+                                <button type="submit" class="btn-form">Send Your Message</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </form>
+
+
+
+
+            </section>
+
+
+
+        </section>
+
+
+
+
+
+
+        <section id="footer">
+
+            <div class="footer-cta flex-container">
+
+                <div class="wow animate__animated animate__fadeIn cta-item-1">
+
+                    <h1 class="h1-cta">Start Your Real Estate Journey Today</h1>
+                    <p class="p-cta">Your dream property is just a click away. Whether you're looking for a new home, a
+                        strategic investment, or expert real estate advice, Estatein is here to assist you every step of
+                        the
+                        way. Take the first step towards your real estate goals and explore our available properties or
+                        get
+                        in touch with our team for personalized assistance.</p>
+                </div>
+
+                <div class="cta-item-2">
+
+                    <a href="properties.html"><button class="btn-cta">Explore Properties</button></a>
+                </div>
+
+
+            </div>
+            <div class="footer-data">
+
+                <div class="flex-container footer-data-div">
+
+                    <div class="f-item-1 img-newsletter flex-container">
+
+                        <a href="index.html">
+                            <div class="logo_img flex-container">
+                                <img class="logo-ftr" src="assets/images/logo.png" alt="">
+                                <img class="img-ftr" src="assets/images/Estatein.png" alt="">
+                            </div>
+                        </a>
+
+
+                        <form class="newsletter-form" action="mailto:baigahmad589@gmail.com" enctype="text/plain"
+                            method="post">
+                            <img src="assets/images/icon-newsletter.png" alt="">
+                            <input required type="email" name="Client's-Email" value="" id="newsletter"
+                                placeholder="Enter Your Email">
+                            <img src="assets/images/icon-2-newsletter.png" alt="">
+                        </form>
+
+                    </div>
+
+
+                    <div class="f-item-2 flex-container">
+
+                        <a class="footer-link-heading" href="index.html">Home</a>
+
+                        <a href="index.html#hero-section">Hero Section</a>
+                        <a href="index.html#features-hero">Features</a>
+                        <a href="index.html#properties">Properties</a>
+                        <a href="index.html#testimonials">Testimonials</a>
+                        <a href="index.html#faq">FAQ's</a>
+
+
+
+                    </div>
+                    <div class="f-item-3 flex-container">
+
+                        <a class="footer-link-heading" href="about.html">About Us</a>
+
+                        <a href="about.html#story">Our Story</a>
+                        <a href="about.html#works">Our Works</a>
+                        <a href="about.html#navigation">How it Works</a>
+                        <a href="about.html#team">Our Team</a>
+                        <a href="about.html#clients">Our Clients</a>
+
+                    </div>
+                    <div class="f-item-4 flex-container">
+
+                        <a class="footer-link-heading" href="properties.html">Properties</a>
+
+                        <a href="properties.html">Portfolio</a>
+                        <a href="properties.html">Categories</a>
+
+                    </div>
+                    <div class="f-item-5 flex-container">
+
+                        <a class="footer-link-heading" href="services.html">Services</a>
+
+                        <a href="services.html#s-pg-c-1">Valuation Mastery</a>
+                        <a href="services.html#s-pg-c-1">Strategic Marketing</a>
+                        <a href="services.html#s-pg-c-1">Negotiation Wizadry</a>
+                        <a href="services.html#s-pg-c-1">Closing Success</a>
+                        <a href="services.html#s-pg-c-2">Property Management</a>
+
+                    </div>
+                    <div class="f-item-6 flex-container">
+
+                        <a class="footer-link-heading" href="contact.html">Contact Us</a>
+
+                        <a href="contact.html">Contact Form</a>
+                        <a href="contact.html">Our Offices</a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+
+        <section id="footer-cpryt">
+
+            <div class="cpr-container flex-container">
+
+                <div class="cpr-item-1">
+
+                    <p>@2023 Estatein. All Rights Reserved.<a class="terms-cond" href="about.html">Terms &
+                            Conditions</a></p>
+
+                </div>
+
+                <div class="cpr-item-2">
+
+                    <a href="https://www.facebook.com/"> <img class="cpr-icons" src="assets/images/btn-fb.png"
+                            alt=""></a>
+                    <a href="https://www.linkedin.com/"> <img class="cpr-icons" src="assets/images/btn-linkedin.png"
+                            alt=""> </a>
+                    <a href="https://www.x.com/"> <img class="cpr-icons" src="assets/images/btn-twitter.png" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/"> <img class="cpr-icons" src="assets/images/btn-youtube.png"
+                            alt=""> </a>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="index.js"></script>
+
+    </div>
+</body>
+
+</html>
