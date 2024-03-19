@@ -922,13 +922,10 @@ a {
 .cpr-icons {
   margin-right: 8px;
   margin-top: 14px;
-  border: 1px solid;
   border-radius: 100%;
 }
 
-.cpr-icons:active {
-  border: 1px solid #703bf7;
-}
+
 
 /* ABOUT-PG */
 
